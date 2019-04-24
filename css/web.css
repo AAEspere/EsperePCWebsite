@@ -28,12 +28,20 @@ h1 {
 nav {
   margin-left:-10px;
   margin-right:-10px;
-  background-color: #6B6D70;
+  background-color: #000000;
+  font-weight: bold;
   font-family: Arial;
   font-size: 20px;
   padding-left: 100px;
   padding-bottom: 10px;
   padding-top: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav:visited {
+    color: #0080FF;
+    text-decoration: none;
 }
 
 body {
@@ -47,6 +55,30 @@ footer {
   font-weight: bold;
   font-style: italic;
   color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  color: #0080FF;
+}
+
+li a{
+  display:block;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration:none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #wrapper {
@@ -73,4 +105,17 @@ footer {
 .updateinfo {
   font-style: italic;
   font-size: 11pt;
+}
+
+.currentnav {
+    color: #0080FF;
+}
+
+.threecolumn {
+  width: 33.33%;
+  float: left;
+}
+
+.threerow:after {
+  display: table;
 }
