@@ -105,10 +105,6 @@ border: 1px solid #000000;
   box-shadow: 5px 5px 5px #828282;
 }
 
-#cpuTable {
-  width: 700px;
-}
-
 .popular {  ;when i list popular parts in a list
   font-weight: bold;
   color: #000000;
@@ -137,4 +133,9 @@ form {
   padding: 1em;
   width: 500px;
   border: 1px solid #000000;
+}
+
+.picture{
+  height: 350px;
+  width: 800px;
 }
