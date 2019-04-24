@@ -81,6 +81,19 @@ li a{
   padding-right: 15px;
 }
 
+table {
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid #000000;
+  border-spacing: 0;
+}
+
+td, th {
+border: 1px solid #000000;
+}
+
+
 #wrapper {
   padding-top: 10px;
   margin-left:auto;
@@ -118,4 +131,10 @@ li a{
 
 .threerow:after {
   display: table;
+}
+
+form {
+  padding: 1em;
+  width: 500px;
+  border: 1px solid #000000;
 }

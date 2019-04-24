@@ -1,3 +1,11 @@
 @media only all and (max-width: 765px) {
-  
+
+  div#wrapper {
+    width: 400px;
+  }
+
+  div#header {
+    height: 80px;
+  }
+
 }
