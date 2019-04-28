@@ -25,23 +25,55 @@ h1 {
   font-size: 28pt;
 }
 
-nav {
+/*  The custom class for the navigation of the website. The navigation is done in a block text stylesheet
+*   When the navigation boxes are hovered over, the text color changes, also the current active navigation
+*   gets highlighted also */
+
+#navlist {
+  /*margins of the navigation*/
   margin-left:-10px;
   margin-right:-10px;
-  background-color: #000000;
-  font-weight: bold;
-  font-family: Arial;
-  font-size: 20px;
+  /*padding of the navigation*/
   padding-left: 100px;
   padding-bottom: 10px;
   padding-top: 10px;
+  /*backgound color of element*/
+  background-color: #000000;
+  /*text of the navigation*/
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 20px;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-nav:visited {
+#navlist li {
+  float: left;
+}
+
+#navlist:visited {
+  color: #0080FF;
+  text-decoration: none;
+}
+
+#navlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navlist li a{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration:none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#navlist li a:hover {
     color: #0080FF;
-    text-decoration: none;
 }
 
 body {
@@ -55,30 +87,6 @@ footer {
   font-weight: bold;
   font-style: italic;
   color: #000000;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a:hover {
-  color: #0080FF;
-}
-
-li a{
-  display:block;
-  color: #FFFFFF;
-  text-align: center;
-  text-decoration:none;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 table {
@@ -142,5 +150,5 @@ form {
 
 .gif {
   height: 500px;
-  width: 5 00px;
+  width: 500px;
 }
