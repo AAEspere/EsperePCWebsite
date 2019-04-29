@@ -17,7 +17,7 @@ and disclaimer notices-->
 * assigned to navlist class, which custom changes navigation to a block format-->
 <nav id = "navlist">
   <ul>
-    <li><a class = "currentnav" href = "home.html">Home</a></li>
+    <li><a href = "home.html">Home</a></li>
     <li><a href = "cpu.html">CPU</a></li>
     <li><a href = "motherboard.html">Motherboard</a></li>
     <li><a href = "ram.html">RAM</a></li>
@@ -31,8 +31,12 @@ and disclaimer notices-->
   <div id = "wrapper">
 <main>
   <div class = "gif">
-    <img src = "img/PC.gif"></img>
-    <caption id = "gifcaption">gif provided by corsair gaming</caption>
+    <a href = "https://giphy.com/gifs/corsairgaming-corsair-rgb-everything-pyJeZnn28bORW"><img src = "img/PC.gif"></a>
+    <br>
+    <caption>
+      With a high budget, your PC could look as beautiful as this one!<br>
+      gif by <a href = "https://giphy.com/gifs/corsairgaming-corsair-rgb-everything-pyJeZnn28bORW">Corsair Gaming</a>
+    </caption>
   </div>
     <!--Explanation of the purpose of the website-->
   <h2>Welcome</h2>
@@ -43,15 +47,41 @@ and disclaimer notices-->
 
 <!--List that provides pictures of the PC parts which link internally to the other pages-->
   <br><br>I will be going over the following parts in detail:
-  <ul>
-    <li><a href = "cpu.html">The CPU</a></li>
-    <li><a href = "motherboard.html">The Motherboard</a></li>
-    <li><a href = "ram.html">The RAM</a></li>
-    <li><a href = "gpu.html">The GPU</a></li>
-    <li><a href = "sddhdd.html">The SDD and HDD</a></li>
-    <li><a href = "psu.html">and the PSU </a></li>
-  </ul>
+  <br>
+  (you can click on the parts to go to their respective pages)
 
+<!--This table formats the images in a 2x3 table, where each respective cell holds
+    the name of the part along with a picture of the part. The pictures are clickable
+    links that bring the user to another page of the website-->
+  <table id = "hometable">
+    <tr>
+      <td>
+          <a href = "cpu.html"><img class = "homepicture" src = "img/CPUAMD.jpg"></a><br>
+            <p>CPU</p>
+      </td>
+      <td>
+            <a href = "motherboard.html"><img class = "homepicture" src = "img/MOTHERBOARD.jpg"></a>
+            <br><p>Motherboard</p>
+      </td>
+      <td>
+            <a href = "ram.html"><img class = "homepicture" src = "img/RAM.jpg"></a>
+            <br><p>RAM</p>
+      </td>
+    </tr>
+      <td>
+            <a href = "gpu.html"><img class = "homepicture" src = "img/GPU.jpg"></a>
+            <br><p>GPU</p>
+      </td>
+      <td>
+            <a href = "sddhdd.html"><img class = "homepicture" src = "img/SSD.jpg"></a>
+            <br><p>SSD/HDD</p>
+      </td>
+      <td>
+            <a href = "psu.html"><img class = "homepicture" src = "img/PSU.jpg"></a>
+            <br><p>PSU</p>
+      </td>
+    </table>
+    <!--closing remarks of the home page -- any other information will be added after this-->
 <br>
   PLEASE NOTE: I will provide my perspective on each part of the PC, but that doesn't mean that you should be following
   my word to build your own PC! I want this website to serve as a hub of information for beginner PC builders to reference

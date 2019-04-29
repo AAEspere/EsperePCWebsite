@@ -5,6 +5,8 @@ main {
   font-size: 12pt;
 }
 
+/* header section for "PC Parts Explained"; this is the blue background behind the text,
+   and sets the text for the header to Arial */
 header {
   height: 55px;
   background-color: #0080FF;
@@ -16,6 +18,7 @@ header {
   margin-top: -10px;
 }
 
+/* CSS for "PC Parts Explained" */
 h1 {
   padding-top: 10px;
   padding-left: 10px;
@@ -70,7 +73,7 @@ h1 {
   padding-right: 15px;
 }
 
-#navlistcurrent {
+nav:visited {
   color: #0080FF;
   text-decoration: none;
 }
@@ -79,10 +82,12 @@ h1 {
     color: #0080FF;
 }
 
+/* background color of the body --> this is behind all of the text */
 body {
     background-color: #ACACAC;
 }
 
+/* This is for the relavant footer information */
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -91,6 +96,13 @@ footer {
   font-style: italic;
   color: #000000;
   clear: right;
+  font-family: Arial;
+  font-size: 11pt;
+}
+
+.updateinfo {
+  font-style: italic;
+  font-size: 9pt;
 }
 
 table {
@@ -117,15 +129,11 @@ border: 1px solid #000000;
   box-shadow: 5px 5px 5px #828282;
 }
 
-.popular {  ;when i list popular parts in a list
+/* for listing the popular parts in a list -- this may be used multiple times for each part */
+.popular {
   font-weight: bold;
   color: #000000;
   font-size: 14pt;
-}
-
-.updateinfo {
-  font-style: italic;
-  font-size: 11pt;
 }
 
 .threecolumn {
@@ -148,17 +156,44 @@ form {
   width: 800px;
 }
 
+
+/* HOME PAGE RELATED FEATURES */
+/* class for the gif that is on the home page*/
 .gif {
   height: 500px;
   width: 500px;
   float: right;
   padding-left: 30px;
   margin-top:-20px;
-}
-
-#gifcaption {
+  margin-right: -20px;
   font-style:italic;
   font-size: 8pt;
   font-style: Arial;
   text-align: center;
+}
+
+/* Table that is on the Home Page
+   This table contains the pictures of the parts, which are clickable links
+   these links lead to other pages within the website */
+#hometable {
+  text-align: center;
+  margin-left: 0px;
+  border: none;
+  width: 700px;
+  height: 250px;
+}
+
+#hometable tr {
+  border: none;
+}
+
+#hometable td {
+  border: none;
+  width: 300px;
+  list-style-type: none;
+}
+
+.homepicture {
+  height: 90px;
+  width: 150px;
 }
